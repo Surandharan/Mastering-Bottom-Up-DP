@@ -22,6 +22,6 @@ int main(){
     cin >> n;
     vector<int> v(n);
     for(int i = 0; i < n; i++) cin>>v[i];
-    cout<<frogJump(n, heights);
+    cout<<frogJump(n, v);
     return 0;
 }
